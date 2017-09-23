@@ -54,6 +54,6 @@ app.get('/about', (req, res) => {
     res.send('About page');
 });
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
     console.log('App running on port:3000');
 });
